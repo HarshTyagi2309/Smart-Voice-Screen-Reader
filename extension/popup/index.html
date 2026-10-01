@@ -1,0 +1,20 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="popup.css">
+  <title>Smart Chatbot</title>
+</head>
+<body>
+  <header>Smart Chatbot</header>
+  <div id="page" class="page">Reading current page…</div>
+  <div id="messages" class="messages"></div>
+  <form id="chat-form">
+    <input id="question" placeholder="Ask about this page…" required autocomplete="off">
+    <button id="mic" type="button" aria-label="Record voice">Mic</button><button type="submit">Send</button>
+  </form>
+  <div id="status" role="status"></div>
+  <script type="module" src="popup.js"></script>
+</body>
+</html>
+

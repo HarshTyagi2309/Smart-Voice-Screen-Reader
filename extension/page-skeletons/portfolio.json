@@ -1,0 +1,68 @@
+{
+    "origin":  "https://harshtyagi2309.vercel.app",
+    "pathname":  "/",
+    "actions":  [
+                    {
+                        "id":  "work",
+                        "label":  "Work",
+                        "description":  "Go to projects and selected work",
+                        "href":  "#work"
+                    },
+                    {
+                        "id":  "about",
+                        "label":  "About",
+                        "description":  "Go to the About section",
+                        "href":  "#about"
+                    },
+                    {
+                        "id":  "skills",
+                        "label":  "Skills",
+                        "description":  "Go to skills and capabilities",
+                        "href":  "#skills"
+                    },
+                    {
+                        "id":  "journey",
+                        "label":  "Journey",
+                        "description":  "Go to the career journey",
+                        "href":  "#journey"
+                    },
+                    {
+                        "id":  "achievements",
+                        "label":  "Achievements",
+                        "description":  "Go to achievements",
+                        "href":  "#achievements"
+                    },
+                    {
+                        "id":  "connect",
+                        "label":  "Connect",
+                        "description":  "Go to the Connect section",
+                        "href":  "#connect"
+                    },
+                    {
+                        "label":  "Top",
+                        "description":  "Scroll to the top: upar jao, sabse upar",
+                        "id":  "top",
+                        "type":  "scroll_top"
+                    },
+                    {
+                        "label":  "Back",
+                        "description":  "Go back to the previous browser history entry",
+                        "id":  "back",
+                        "type":  "back"
+                    },
+                    {
+                        "label":  "LinkedIn",
+                        "description":  "Open the LinkedIn profile",
+                        "href":  "https://www.linkedin.com/in/harsh-tyagi-a470a03a2",
+                        "id":  "linkedin",
+                        "type":  "external"
+                    },
+                    {
+                        "label":  "GitHub",
+                        "description":  "Open the GitHub profile",
+                        "href":  "https://github.com/HarshTyagi2309",
+                        "id":  "github",
+                        "type":  "external"
+                    }
+                ]
+}
